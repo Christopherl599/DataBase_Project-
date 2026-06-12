@@ -1,0 +1,124 @@
+/*
+div{
+  padding: 20px;
+  text-align: center;
+  border: solid 2px black;
+}
+*/
+#header{
+  padding: 20px;
+  text-align: center;
+  border: solid 2px white;
+  background-color: rgb(78, 88, 88) ;
+  color: gold;
+  font-style: italic;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  border-image-width: 10px;
+}
+img{
+  width: 100px;
+}
+#nav{
+  
+  padding: 5px;
+  text-align: center;
+  border: solid 2px white;
+  background-color:#02075D ;
+  color: azure;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+.roaster{
+  width:1000px;
+}
+.container{
+  display:flex;
+  flex-wrap: wrap;
+  text-align: center;
+  border: solid 2px black;
+}
+
+.panel{
+  flex:1;
+  text-align: center;
+  border: solid 2px black;
+  min-height:2000px;
+  background-color:black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  color: azure;
+}
+#centerpanel{
+  flex:3;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+  align-items: flex-start;
+  text-align: center;
+  border: solid 2px black;
+  min-height:500px;
+  background-color:goldenrod;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+#foot{
+  text-align: center;
+  border: solid 2px black;
+  background-color:#02075D;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  color: azure;
+}
+
+.card{
+  /*flex:1;   THIS SQUISHES */
+  /*flex-basis:150px   */
+  width:300px;
+  height: 200px;
+  margin:10px;
+  padding:5px;
+  border:1px solid black;
+  text-align:center;
+  background-color:navy
+}
+/* target all h4 elements*/
+h4{
+  color:white;
+}
+/*target all the paragraphs in the card class*/
+.card p{
+  font-size:17px;
+  color: aliceblue;
+  font-family:verdana;
+  font-style:italic;
+}
+.card div{
+  font-weight: bold;
+  text-decoration: underline;
+  font-size:15px;
+  color: aliceblue;
+  font-family:verdana;
+  font-style:italic;
+}
+.card di2{
+  font-size:17px;
+  color: black;
+  font-family:verdana;
+  font-style:italic;
+}
+.card img{
+  width:200px;
+  height:200px;
+}
+.button{
+  text-decoration:none;
+  background-color:black;
+  color:whitesmoke;
+  border-radius:2px;
+  padding:3px;
+  box-shadow:2px 2px 2px black;
+}
+.button:hover{
+  background-color:gold;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>54 Actvy soln: Employees</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!-- import JS file -->
+    <script src="ultimates.js"></script>
+  </head>
+  
+  <!-- Call the int function when website loads -->
+  <body onload="init()">
+    <div>
+
+      <!--  Header or Banner -->
+      
+      <!--  nav bar -->
+      <nav id='nav'>
+        <h2>Navigation - Ultimates Page</h2>
+            <a href="index.html" class="button">HOME</a>   
+            <a href="characters.html" class="button">CHARACTERS</a> 
+            <a href="ultimates.html" class="button">ULTIMATES</a>
+      </nav>
+      <div id="header">
+        <h1> Marvel Rivals </h1>
+        <img src = "symbol.jpg">
+      </div>
+      <!--  Main content (has 3 panels) -->
+      <div class="container">
+        
+        <div class='panel'>
+          <div class="container filter">
+            <div>          
+                   Left Control
+              <h4> search by Win rate </h4>
+              <input style="flex:2;text-align:right;" type="text" 
+                id="city" placeholder="Enter city" >  <br>      
+              <a class="button" onclick="filter()"> Search </a><br>
+              <h4 id="count"></h4>
+            </div>
+          </div>
+        </div>
+        
+        <div id='centerpanel' class='container'>
+          Center Control
+        </div>
+        
+        <div class='panel'>
+          Right Control
+        </div>
+        
+      </div>
+      
+      <!--  Footer -->
+      <div id='foot'>
+        <h3> This is Database Project Created by Christopher Luna and Yahel Montavo </h3>
+      </div>
+
+    </div>
+    
+  </body>
+</html>
